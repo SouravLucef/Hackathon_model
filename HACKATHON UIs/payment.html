@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>QR Payment Gateway</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url("paybg.jpg");
+      background-size: cover;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #87CEFA;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    .qr-code {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .payment-info {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .payment-info img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>QR Payment Gateway</h1>
+    <div class="qr-code">
+      <img src="qr.png" alt="QR Code" id="qr-code-img"> 
+    </div>
+    <div class="payment-info">
+      <p>Scan the QR code to make the payment</p>
+      <p>Total amount: 500/-</p>
+    </div>
+  </div>
+  
+</body>
+</html>
